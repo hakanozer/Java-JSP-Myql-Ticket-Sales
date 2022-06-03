@@ -1,0 +1,442 @@
+﻿/* RESET CSS BEGIN */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, input, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, textarea, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{margin: 0 auto;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;font-family: Arial,Helvetica,sans-serif;}
+body{line-height: 1;}
+fieldset, img{border: 0;}
+legend{color: #000;}
+address, caption, cite, code, dfn, em, strong, th, var{font-style: normal;font-weight: normal;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+nav ul{list-style: none;}
+blockquote, q{quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after{content: '';content: none;}
+a{margin: 0;padding: 0;font-size: 100%;vertical-align: baseline; /*background:transparent;*/display: inline-block;text-decoration: none;}
+ins{background-color: #ff9;color: #000;text-decoration: none;}
+mark{background-color: #ff9;color: #000;font-style: italic;font-weight: bold;}
+del{text-decoration: line-through;}
+abbr[title], dfn[title]{border-bottom: 1px dotted;cursor: help;}
+table{border-collapse: collapse;border-spacing: 0;}
+hr{display: block;height: 1px;border: 0;border-top: 1px solid #cccccc;margin: 1em 0;padding: 0;}
+input, textarea, select{vertical-align: middle;font-family: inherit;font-size: inherit;font-weight: inherit;}
+input, textarea, select{*font-size:100%}
+:focus{outline: 0;}
+/* RESET CSS END */
+
+/* BASEPAGE BEGIN */
+body
+{background-color: #051433;min-width: 100%;}
+#ShowFirstMessageLBContent{color: Gray;font-family: Arial,Helvetica,sans-serif;font-size: 16px;margin: 20px 17px 0 34px;text-align: left;z-index: 13;}
+#PopupInfo{color: #1B4E80;font-weight: bold;float: left;margin-top: 20px;width: 314px;line-height: 1.4;text-align: center; *margin-top:150px;*margin-left:-210px;}
+#LightBoxBackgroundLayout{width: 900px;top: 50%;left: 50%;position: fixed;z-index: 98;opacity: 0;filter: alpha(opacity=0);}
+#LightBoxBackgroundPanel{position: fixed;height: 100%;width: 100%;opacity: 0;filter: alpha(opacity=0);background-color: #050C1A;z-index: 97;}
+#LightBoxCenterPanel{position: relative;z-index: 99;}
+#PreviousLink{left: 6px;z-index: 102;background: url(../Images/Template.png) no-repeat scroll -242px -145px;position: absolute;height: 44px;width: 30px;cursor: pointer;}
+#NextLink{z-index: 102;background: url(../Images/Template.png) no-repeat scroll -272px -145px;position: absolute;height: 44px;width: 30px;cursor: pointer;}
+#LightBoxClose{background: url("../Images/Template.png") no-repeat scroll -252px -97px transparent;cursor: pointer;height: 42px;right: -23px;position: absolute;top: -23px;width: 37px;z-index: 102;}
+#CloseLightBox{background: url("../Images/Template.png") no-repeat scroll -252px -97px transparent;cursor: pointer;height: 42px;right: -15px;position: absolute;top: -20px;width: 37px;z-index: 102;}
+#HeaderPanel{float: left;z-index: 10;position: relative;height: 40px;min-width: 100%;background: url(../Images/BG-Header.png) repeat;}
+#HeaderPanelContent{width: 980px;margin: 0 auto;display: block;background: url(../Images/BG-Header.png) repeat scroll 0 0 transparent;background-repeat: repeat-x;}
+#HeaderPanelLayout{float: left;}
+#LogoLink{background: url("../Images/Template.png") no-repeat scroll -8px -8px transparent;float: left;height:155px;margin-left: 5px;width: 137px;z-index:99;}
+#Month{font-size: 12px;}
+#Year{font-size: 12px;}
+#PressReleaseContainer{margin-left:9px;}
+#ui-datepicker-div{font-size: 14px;}
+#SocialMediaPanel{width: 100%;z-index:3;top:39px;position: absolute;display: table;left: 0;}
+#SocialMediaContent{margin: 0 auto;width: 980px;}
+#SocialMediaPosition{background: url("../Images/NewPanelTemplate.png") no-repeat scroll -496px -87px transparent;float: right;padding: 3px 10px 3px 6px;}
+#SocialMediaPositionContent a > img{height: 20px;width: 20px;}
+#FunctionalPanel{background: url("../Images/NewPanelTemplate.png") no-repeat scroll -205px -6px transparent;float: left;height: 400px;width: 285px;}
+#FunctionalPanel #calenderButton{cursor: pointer;margin-left: -24px;margin-top: 3px;}
+#OnlineSupport{float: left;margin-top: 5px;margin-right: 82px;background: url(../Images/Template.png) no-repeat scroll -172px -114px;width: 60px;width: 17px;height: 15px;}
+.OnlineSupportPanel{float: left;position: relative;width: 108px;height: 13px;}
+.OnlineSupportPanel > span{position: absolute;top: 6px;left: 20px;font-family: Arial,Helvetica,sans-serif;font-size: 12px;font-weight: bold;}
+.OnlineSupportPanel > img{position: absolute;left: 0;top: 5px;z-index: 11;}
+#GooglePlay{cursor:pointer;background: url("../Images/NewPanelTemplate.png") no-repeat scroll -608px -167px transparent;cursor: pointer;height: 50px;left: 295px;position: absolute;width: 117px;z-index: 9;}
+#AppleStore{background: url("../Images/NewPanelTemplate.png") no-repeat scroll -493px -167px transparent;cursor: pointer;height: 50px;margin-left: 50px;position: absolute;width: 117px;z-index: 9;left:130px\0; }
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0){head~body #AppleStore { margin-left:180px; }}
+#MobileApplicationLinkPanel{margin-left:390px;margin-top:-50px;position:relative;}
+#NoticePanel{background: url("../Images/NewPanelTemplate.png") no-repeat scroll -12px -412px transparent;color: #FFFFFF;display: block;height: 46px;padding: 19px 8px 15px;text-align: center;width: 461px;}
+#SingOnText{z-index: 10;display: inline;}
+#SingOnTextPanel{margin: 0 auto;}
+#SingOnTextContent{float: right;margin-top: 14px;}
+#Welcome{color:white;float: left;font-size: 11px;margin-right: 5px;margin-top: 2px;}
+#SignIn{float: right;margin-right: 10px;}
+#SignUp{float: right;margin-right: 20px;}
+#SingOnTextContent div a{display: block;color:white;font-size: 13px;margin-top: 1px;}
+#ClickDiv{position: absolute;height: 15px;top: -2px;left: 64px;cursor: pointer;z-index: 15;}
+#OpenUpMenu{z-index: 12;width: 100%;min-width: 980px;background-color: Transparent;display: inline-block;position: absolute;left: 0px;top: 40px;}
+#OpenUpMenuPanel{margin: 0 auto;background-color: Transparent;width: 704px;}
+.OpenUpMenuPanelContent div{float: left;height:25px;margin-left: 14px;margin-top: 10px;background-image: url(../Images/MenuUnderLine.png);background-repeat: no-repeat;background-position: bottom;width: 150px;}
+.OpenUpMenuPanelContent a:first-child{color: #3E6C99;font-weight: bold;font-size: 13px;}
+.OpenUpMenuPanelContent a{float: left;text-decoration: none;font-size: 12px;font-family: Arial,Helvetica,sans-serif;display: table;padding-top: 7px;}
+.OpenUpMenuPanelContent{float: left;width: 840px;display: none;}
+#OpenUpMenuPanelLayout{height: 0px;background-color: #040F26;display: block;border-left: 1px solid #3D6B95;border-right: 1px solid #3D6B95;overflow: hidden;margin-left:4px;}
+#OpenUpMenuPanelLayout div{background-color: #040F26;}
+#OpenUpMenuLinkPanel{background: url(../Images/Template.png) no-repeat scroll -336px -114px;}
+#UserNameInfo{float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;color:white;cursor: pointer;}
+#TickImage{cursor: pointer;float: left;width: 10px;height: 13px;background: url("../Images/NewPanelTemplate.png") no-repeat scroll -667px -141px transparent;margin-top: 3px;margin-left: 7px;}
+#SocialMediaPositionContent{float: left;}
+#Language{float: left;font-family: Arial,Helvetica,sans-serif;font-weight: bold;margin-left: 9px;margin-top: 7px;text-align: center;font-size: 11px;}
+#Brace{float: left;background-color: #555658;width: 2px;height: 11px;}
+#English{float: left;text-decoration: none;margin-left: 5px;}
+#Turkish{float: left;text-decoration: none;margin-right: 5px;}
+#Line{float: left;background-image: url(../Images/BG-Header-Line.png);height: 41px;width: 1px;background-repeat: no-repeat;}
+#Accessibility{border-style: none;}
+#LanguageCode{display: none;}
+.SocialMedia{margin-top: 3px;height: 20px;cursor: pointer;margin-left: 3px;width: 20px;}
+.HeaderPanelLayout{float: left;text-decoration: none;color:white;font-weight: normal;font-size: 14px;padding: 13px 15px 12px;}
+.HeaderPanelLayoutSelector{float: left;text-decoration: none;color: White;background-image: url(../Images/BG-Header-Active.png);border-bottom: solid 1px #1A3146;font-weight: normal;font-size: 14px;padding: 13px 15px 12px;}
+.HeaderPanelLayout:hover{float: left;text-decoration: none;color: White;background-image: url(../Images/BG-Header-Active.png);border-bottom: solid 1px #1A3146;font-weight: normal;font-size: 14px;padding: 13px 15px 12px;}
+.Active{}
+#ProfileInfo{height: 0;width: 185px;background-color:#040F26;float: right;z-index: 20;margin-right: -21%;border-radius: 0 0 10px 10px;}
+#ProfileInfo div{height: 36px;background-image: url("../Images/MenuUnderLine.png");background-repeat: no-repeat;background-position: bottom;display: none;width: 186px;}
+#ProfileInfo a{color: White;float: left;font-size: 13px;font-weight: normal;padding: 14px 18px 12px;text-decoration: none;}
+#VoyagesContainer{margin-bottom: 25px;}
+#LBLayoutInfo{border: solid 1px gray;padding-left: 30px;background-color: White;border-radius: 0 10px 10px 10px;padding-bottom: 20px;position: absolute;width: 372px;z-index: 555;margin-left: 30px; *margin-left:-365px}
+#LBLayoutInfo div{float: left;margin-top: 5px;width: 350px;text-align: left;font-family: Arial,Helvetica,sans-serif;font-size: 12px;}
+#LBLayoutInfo p{font-weight: bold;margin-bottom: 5px;}
+#RememberPanel{margin-bottom: 25px;}
+#FooterPanel{float: left;padding-top: 15px;height: 150px;width: 100%;background-color: #051433;margin-top: 15px;}
+#FooterPanelContent{width: 650px;margin: 0 auto;}
+#FooterPanelPolicy{float: left;margin-top: 15px;color: #3A658D;font-family: Arial,Helvetica,sans-serif;text-align: center;font-size: 13px;width: 100%;}
+#FooterPanelLayout{position: relative;z-index: 5;text-align: center;}
+#FooterPanelLayout > a{margin-left: 15px;padding-right: 15px;border-color: #3A658D;text-decoration: none;color: #3A658D;border-right: solid 1px;font-family: Arial,Helvetica,sans-serif;font-size: 13px;}
+#FooterPanelLayout > a:last-child{border-style: none;}
+#FooterPanelLayout > #_4{ *border-style:none;}
+/* BASEPAGE END */
+
+
+/* HOMEPAGE BEGIN */
+#NoticeTable{width:480px;position:absolute;left:50%;margin-left:2px;top:470px;}
+.Banners{font-style: italic;float: left;margin-left: 14px;width: 219px;height: 70px;cursor: pointer;border: 4px solid #3D6B95;background-position: center center;background-repeat: no-repeat;position: relative;}
+.MainBackground{height: 600px;min-width: 970px;position: absolute;width: 100%;z-index: -1;}
+.BannerCampaignName{color: white;text-align: center;font-size: 15px;font-weight: bold;width: 219px;padding-top: 10px;z-index: 5;position: absolute;}
+.BannerCampaignText{color: white;text-align: center;z-index: 5;position: absolute;top: 90px;width: 230px;display: none;}
+.BannerContentOpacity{background-color: Black;width: 219px;height: 70px;opacity: 0.85;filter: alpha(opacity=85);position: absolute;z-index: 1;top: 0;}
+.Click{color:#003CB3;}
+.UnClick{color:#FFFFFF;}
+#SelectLink{ background:url("../Images/NewPanelTemplate.png") no-repeat scroll -505px -6px transparent;height: 61px;left: -21px;padding-left: 6px;position: absolute;top: -12px;width: 219px;}
+.Direction{background: url("../Images/Template.png") no-repeat scroll -371px -108px transparent;float: right;height: 25px;width: 16px;}
+.float{float: left;}
+.VoyageTitle{color: #1B4E80;font-family: Arial,Helvetica,sans-serif;font-size: 13px;position: absolute;top: 50px;font-weight: bold;}
+#BuyTicketPosition{margin: 0 auto;width: 538px;float: left;}
+#BuyTicketContent{float: left;width: 530px;height: 200px;background-color: Transparent;display: none;margin-top: -45px;}
+#BuyTicketContainer{position: relative;background: url("../Images/Template.png") no-repeat scroll -3px -199px transparent;float: left;height: 180px;width: 512px;}
+#BuyTicketDirection{margin-top: 13px;}
+#BuyTicketContainer a{font-family: Arial,Helvetica,sans-serif;font-size: 15px;font-weight: bold;position: absolute;text-align: center;text-decoration: none;top: 105px;}
+#Query{background: url("../Images/Template.png") no-repeat scroll -10px -499px transparent;color: white;font-family: Arial,Helvetica,sans-serif;font-size: 15px;font-weight: bold;height: 31px;left: 287px;padding-left: 13px;padding-top: 14px;position: absolute;text-decoration: none;top: 119px;width: 193px;}
+#HeaderAllDate{color: #1B4E80;font-family: Arial,Helvetica,sans-serif;font-size: 16px;font-weight: bold;left: 286px;position: absolute;top: 28px;}
+#BuyTicketContainer #calenderButton{left: 460px;border: solid 1px #3D6B95;background-color: White;height: 20px;position: absolute;top: 69px;width: 13px;padding-right: 3px;font-size: 12px;font-family: Arial,Helvetica,sans-serif;border: solid 1px #3D6B95;border-left-style: none;cursor: pointer;}
+#VoyageContainer #calenderButton{left: 621px;border: solid 1px #3D6B95;background-color: White;height: 20px;position: absolute;top: 69px;width: 13px;padding-right: 3px;font-size: 12px;font-family: Arial,Helvetica,sans-serif;border: solid 1px #3D6B95;border-left-style: none;cursor: pointer;}
+.OddRow{background-color: #EBEBEB;}
+.EvenRow{background-color: #F5F5F5;}
+#NextDayTitle{font-family: Arial,Helvetica,sans-serif;color: #1B4E80;font-size: 12px;font-weight: bold;position: absolute;left: 48px;top: 31px;cursor: pointer;}
+#PreviousDayTitle{font-family: Arial,Helvetica,sans-serif;color: #1B4E80;font-size: 12px;font-weight: bold;position: absolute;right: 48px;top: 31px;cursor: pointer;}
+#OnlineTicketTitle{color: White;font-family: Arial,Helvetica,sans-serif;font-size: 17px;font-weight: bold;left: 25px;position: absolute;top: 16px;}
+#FunctionalButtonsPanel{left: 50%;margin-left: -482px;position: absolute;top:148px;width: 745px; *width:545px;}
+#FunctionalButtonsContent{background: url("../Images/NewPanelTemplate.png") no-repeat scroll -11px -7px transparent;float: left;height: 263px;margin: 0 auto;width: 196px;position:relative;}
+#FunctionalButtonsPosition{float: right;}
+#FunctionalButtonsPosition a{float: left;height:22px;padding: 13px 12px 12px;text-align: left;text-decoration: none;width: 170px;font-family: Arial,Helvetica,sans-serif;font-weight: bold;font-size: 15px;margin-top: 2px;margin-left: 215px; *margin-left:16px;cursor:pointer;}
+#ContentPanel{float: left;z-index: 1;position: relative;height: 600px;width: 100%;min-width:980px;}
+#ContentRegion{height: 600px;margin: 0 auto;min-width: 980px;position: relative;}
+#NavigationPanel{position: absolute;width: 100%;top: 595px;}
+#NavigationPanelCenter{margin: 0 auto;width: 980px;position: relative;}
+#BannerPanel{position: absolute;width: 100%;bottom: 0;height: 35px;}
+#BannerPanelCenter{margin: 0 auto;width: 980px;}
+#NavigationPanelCenter a{height: 14px;width:14px;cursor: pointer;z-index: 25;}
+#NavigationPointerPanel{float:right;margin-right:10px;}
+#Previous{background: url(../Images/Template.png) no-repeat scroll -168px -145px;}
+#Next{background: url(../Images/Template.png) no-repeat scroll -203px -145px;right: 0;}
+
+/* HOMEPAGE END */
+
+/* FUNCTIONAL PANEL BEGIN */
+.InputField{float:left;border:solid 1px #3D6B95;width:233px !important;height:20px !important;font-size:12px !important;padding:3px !important;margin-left:20px;margin-top:10px;font-family: Arial,Helvetica,sans-serif,Helvetica,sans-serif;}
+.Selection{background-color:Silver;color:#003CB3;font-size: 13px;height:19px;margin-left: 2px;margin-top:5px;padding-left:18px;padding-top:7px;width:260px;}
+.OpenSelectionPanel{height:170px;}
+.NotOpenSelectionPanel{height:0; display:none;}
+.FunctionalLabel{font-family: Arial,Helvetica,sans-serif,Helvetica,sans-serif;font-weight:bold; color: #FFFFFF;float: left;font-size: 12px;margin-left:20px;margin-top: 10px;width: 100%;cursor:default;}
+#FunctionalRememberMe{float: left;width:20px;}
+.FunctionalLink{background: url("../Images/NewPanelTemplate.png") no-repeat scroll -493px -122px transparent;color: #334A7B;display: block;float: right;font-size: 13px;font-weight: bold;height: 10px;margin-right:42px;margin-top: -14px;padding: 15px 15px 15px 8px;text-align: center;width: 70px;}
+.FunctionalLink:hover{ background: url("../Images/NewPanelTemplate.png") no-repeat scroll -493px -291px transparent;}
+#FunctionalRememberMe_Label{color:White;font-family: Arial,Helvetica,sans-serif;float: left;font-size:12px;margin-top:2px;*margin-top:5px;}
+#ActionContainer{float:left;width:100%;margin-left:18px;margin-top:20px;}
+#OrLabel{float:left;width:100%;margin-top:18px;text-align:center;font-size:12px;font-family: Arial,Helvetica,sans-serif;font-weight:bold;color:White;margin-bottom:10px;}
+#Warning{float:left;width:100%;margin-top:20px;text-align:center;font-size:12px;font-family: Arial,Helvetica,sans-serif;font-weight:bold;color:White;margin-bottom:10px;}
+.SelectField{ float: left;font-family: Arial,Helvetica,sans-serif;font-size: 12px;height: 28px;margin-left: 20px;margin-top: 10px;padding: 4px 3px 3px;width: 240px; }
+#FunctionalWherePassengerContainer{margin-top:10px;}
+.RadioField{float:left;margin-right:5px;margin-left: 2px;}
+.RadioFieldLabel{ color:White;display: block;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 12px;margin-right:15px;margin-top: 2px;*margin-top:5px;}
+.VoyageDate{margin-left: 3px;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 12px;height: 20px;padding: 5px 3px 3px;width: 100px;*margin-left:-14px;}
+#OnlineProcess #calenderButton{cursor: pointer;margin-left: -24px;margin-top: 3px;}
+#WantYolkart{color:#3377FF;text-decoration:underline;font-size:12px;font-family: Arial,Helvetica,sans-serif;}
+#YolkartNoticeTitle{color:White;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 11px;width: 220px;}
+#YolkartImage{background: url("../Images/NewPanelTemplate.png") no-repeat scroll -597px -130px transparent;float: left;height: 27px;margin-left: -2px;margin-top: -5px;width: 42px;}
+#OnlineProcess{ height: 383px;padding-top: 10px;width: 100%;}
+/* FUNCTIONAL PANEL END */
+
+/* BRANCHSANDTERMINAPAGE BEGIN */
+.TerminalSelectBox{min-width: 180px;font-size: 10px;font-family: Arial,Helvetica,sans-serif,Helvetica,sans-serif;border: solid 1px #3D6B95;}
+#ContainerLoginForm{margin-top: 25px;}
+/* BRANCHSANDTERMINALPAGE END*/
+
+/* HEADLINE BEGIN */
+#Headline{position: relative;margin: 1px auto;z-index: 8;width: 800px;height: 400px;margin-bottom: 20px; margin-left:9px;}
+#Headline .HeadlinesLayout{position: relative;width: 100%;height: 100%;margin: 0 auto;overflow: hidden;}
+#Headline .HeadlinesLayout #Headlines{position: absolute;left: 0;top: 0;height: 100%;width: 2000000px;}
+#Headline .HeadlinesLayout #Headlines .Title{position: absolute;bottom: 21px;left: 20px;width: 75%;font-size: 18px;margin: 0;padding: 0;color: White;z-index: 3;}
+#Headline .HeadlinesLayout #Headlines .Description{position: absolute;bottom: 15px;left: 20px;width: 80%;height: 30px;font-size: 15px;margin: 0;padding: 0;color: White;z-index: 3;}
+#Headline .HeadlinesLayout #Headlines .Button{position: absolute;top: 20px;right: 20px;z-index: 10;cursor: pointer;}
+#Headline .HeadlinesLayout #Headlines .Play{width: 66px;height: 66px;position: absolute;left: 50%;top: 50%;margin-left: -33px;margin-top: -33px;display: block;cursor: pointer;}
+#Headline .HeadlinesLayout #Headlines .BackgroundImage{width: 100%;overflow: hidden;}
+#Headline .HeadlinesLayout #Headlines .BackgroundImage img{width: 100%;}
+#Headline .Pages{position: absolute;bottom: 21px;right: 20px;height: 15px;font-size: 15px;z-index: 4;}
+#Headline .Previous{position: absolute;width: 30px;height: 52px;top: 184px;background: url(../Images/Template.png) no-repeat scroll -240px -145px;display: block;}
+#Headline .Next{position: absolute;width: 32px;height: 52px;top: 184px;right: 0px;background: url(../Images/Template.png) no-repeat scroll -270px -145px;display: block;}
+#Headline #splashvideo{outline: none;position: absolute;z-index: 99;margin-top: -40px;}
+#Headline .HeadlinesLayout #Headlines .HeadlineItem{float: left;position: relative;width: 810px;}
+#Headline .HeadlinesLayout #Headlines .BackgroundImage{height: 400px;}
+#Headline .HeadlinesLayout #Headlines .bgImageContainer{width: 100%;height: 100%;}
+#Headline .HeadlinesLayout #Headlines .bgImageContainer > img{width: 100%;height: 100%;}
+#Headline .HeadlinesLayout #Headlines .Title a{color: #FFFFFF;cursor: pointer;text-decoration: none;}
+#Headline .HeadlinesLayout #Headlines .Description a{color: #FFFFFF;text-decoration: none;}
+/* HEADLINE END */
+
+/* MAP 1.0 BEGIN */
+#MapLayout{width: 920px;height: 600px;margin: 30px;position: relative;border: 2px solid #CCC;border-radius: 5px;}
+#MapWrapperLayout{height: 600px;margin: 160px 10px 25px 10px;position: relative;width: 955px;border: 2px solid #CCC;border-radius: 5px;}
+#Map{width: 100%;height: 100%;position: absolute;}
+.Popup{text-align: left;height: auto;padding: 5px;}
+.Popup > b{font-size: 13px;}
+.Popup > span{font-size: 12px;}
+/* MAP 1.0 END */
+
+#SelectedRowLink{margin-top: -1px;text-align:center; background: url("../Images/NewPanelTemplate.png") no-repeat scroll -664px -222px transparent;color: #FFFFFF;font-size: 12px;height: 11px;padding: 7px;width: 36px;}
+#SelectedRowLink:hover{background:url("../Images/NewPanelTemplate.png") no-repeat scroll -664px -247px transparent;}
+
+#PassengerInfo{color: White;font-family: Arial,Helvetica,sans-serif;font-size: 17px;font-weight: bold;left: 25px;position: absolute;top: 17px;}
+#TicketInfoTitle{color: White;font-family: Arial,Helvetica,sans-serif;font-size: 17px;font-weight: bold;margin-left: 16px;margin-top: 22px;position: absolute; *margin-left:-380px;}
+#PassengerDeparture{left: 25px;color: #1B4E80;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;position: absolute;top: 60px;}
+#PassengerArrival{left: 316px;color: #1B4E80;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;position: absolute;top: 60px;}
+#PassengerArrivalTitle{left: 372px;color: Gray;font-family: Arial,Helvetica,sans-serif;font-size: 13px;position: absolute;top: 60px;}
+#PassengerDepartureTitle{left: 90px;color: Gray;font-family: Arial,Helvetica,sans-serif;font-size: 13px;position: absolute;top: 60px;}
+#PaymentInfo{color: White;font-family: Arial,Helvetica,sans-serif;font-size: 17px;font-weight: bold;left: 25px;position: absolute;top: 21px;}
+#ConvertToTicket{margin-left: 90px;margin-top: 10px;background: url("../Images/TemplateBtn.png") no-repeat scroll -278px -458px transparent;color: #005999;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;height: 31px;width: 285px;font-weight: bold;}
+#ConvertToTicket:hover{margin-left: 90px;margin-top: 10px;background: url("../Images/TemplateBtn.png") no-repeat scroll -278px -494px transparent;color: #0089FF;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;height: 31px;width: 285px;font-weight: bold;}
+#SelectDeleteLink{margin-top: 8px;background: url("../Images/TemplateBtn.png") no-repeat scroll -3px -387px transparent;color: #005999;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 32px;margin-left: 5px;width: 243px;}
+#SelectDeleteLink:hover{margin-top: 8px;background: url("../Images/TemplateBtn.png") no-repeat scroll -3px -422px transparent;color: #0089FF;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 32px;margin-left: 5px;width: 243px;}
+#CVC{height:19px;padding:2px 3px 0 3px;}
+#SendRefNumber{margin: 0 auto;width: 300px;border: solid 1px #005999;border-radius: 5px;height: 0;background: linear-gradient(#fff,#CED5DB);display: none;}
+#PhoneSelectBox{border: solid 1px #005999;margin-top: 20px;font-size: 14px;}
+#PhoneTextBox{border: solid 1px #005999;margin-left: 4px;margin-top: 20px;font-size: 14px;}
+#PhoneLink{background: url("../Images/TemplateBtn.png") no-repeat scroll -247px -387px transparent;color: #005999;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 23px;margin-bottom: 15px;margin-left: 25px;margin-top: 8px;padding-top: 9px;width: 246px;}
+#PhoneLink:hover{background: url("../Images/TemplateBtn.png") no-repeat scroll -247px -422px transparent;color: #0089FF;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 23px;margin-bottom: 15px;margin-left: 25px;margin-top: 8px;padding-top: 9px;width: 246px;}
+#BarCode{height: 200px;width: 200px;border: solid 1px black;float: left;margin-left: 10px;}
+#SMSSearch_Layout_Cell_0_0FieldsStructure_Cell_1_0{margin-left: 224px;position: absolute;top: -3px;}
+#CreditCardSearch_Layout_Cell_0_0FieldsStructure_Cell_1_0{margin-left: 224px;position: absolute;top: -8px;}
+#CB_ConvertToReservationsGrid .EvenRow td{padding: 6px;}
+#SMSSearch_Layout{margin-top: 5px;}
+#SalesCont{display: block;color: #003366;font-size: 12px;font-weight: bold;margin-left: 47px;margin-top: 85px;position: absolute;text-align: left;width: 272px; *margin-left:-120px;}
+#IsCepContract{display: none;margin-left: 24px;margin-top: 106px;position: absolute; *margin-left:-145px;}
+#SendBarCode{display: none;margin-left: 120px;margin-top: 20px; *margin-left:-10px;}
+#ChangeButton{background: url("../Images/TemplateBtn.png") no-repeat scroll -99px -3px transparent;color: #005999;cursor: pointer;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 32px;width: 123px;}
+#ChangeButton:hover{color: #0089FF;background: url("../Images/TemplateBtn.png") no-repeat scroll -99px -38px transparent;cursor: pointer;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 32px;width: 123px;}
+.PaymentTab{color: #1B4E80;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 19px;padding-top: 18px;padding-bottom: 2px;position: absolute;text-align: center;text-decoration: none;top: 70px;width: 122px;}
+.IsCepSend2{display: none;background: url("../Images/Template.png") no-repeat scroll -282px -607px transparent;color: #1B4E80;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 19px;padding: 19px 11px 13px;text-align: center;text-decoration: none;width: 92px;position: absolute;}
+.IsCepSend2:hover{display: none;background: url("../Images/Template.png") no-repeat scroll -164px -607px transparent;color: #1B4E80;cursor: pointer;float: left;font-family: Arial,Helvetica,sans-serif;font-size: 13px;font-weight: bold;height: 19px;padding: 19px 11px 13px;text-align: center;text-decoration: none;width: 92px;position: absolute;}
+.IsCepSend{background: url("../Images/TemplateBtn.png") no-repeat scroll -295px -215px transparent;color: #005999;font-family: Arial,Helvetica,sans-serif;font-size: 19px;height: 29px;padding-bottom: 4px;padding-left: 17px;padding-top: 15px;text-decoration: none;width: 131px;margin-top:20px;margin-left:120px;}
+.IsCepSend:hover{background: url("../Images/TemplateBtn.png") no-repeat scroll -295px -266px transparent;color: #0089FF;font-family: Arial,Helvetica,sans-serif;font-size: 19px;height: 29px;padding-bottom: 4px;padding-left: 17px;padding-top: 15px;text-decoration: none;width: 131px;margin-top:20px;margin-left:120px;}
+
+
+#BKM{width: 400px;height:200px;font-size: 14px;color: Gray;font-family: Arial,Helvetica,sans-serif;padding-left: 10px;padding-right: 10px;padding-top:30px;text-align:left;vertical-align:middle;}
+#BKMExpress{background: url("../Images/Template.png") no-repeat scroll -621px -607px transparent;left: 274px;}
+#IsCepMoneyCode{background: url("../Images/Template.png") no-repeat scroll -621px -607px transparent;left: 152px;}
+#CreditCardTab{background: url("../Images/Template.png") no-repeat scroll -500px -607px transparent;left: 30px;}
+#Msg{font-size: 12px;color: Gray;font-family: Arial,Helvetica,sans-serif;padding-left: 12px;padding-right: 12px;}
+#CreditCardInfo{color: #1B4E80;font-size: 14px;font-weight: bold;margin: 15px;text-align: left;}
+#MasterCard{background: url("../Images/Template.png") no-repeat scroll -269px -559px transparent;height: 33px;position: absolute;right: 75px;top: 39px;width: 43px;}
+#VisaCard{background: url("../Images/Template.png") no-repeat scroll -313px -559px transparent;height: 33px;position: absolute;right: 29px;top: 39px;width: 43px;}
+#KeyPadCardNo{background: url("../Images/Template.png") no-repeat scroll -230px -569px transparent;height: 17px;position: absolute;right: 85px;top: 79px;width: 30px;}
+#KeyPadCvv{background: url("../Images/Template.png") no-repeat scroll -230px -569px transparent;height: 17px;position: absolute;right: 235px;top: 133px;width: 30px;}
+#WhatisCvv{bottom: 79px;color: #29537E;font-size: 10px;font-weight: bold;left: 216px;position: absolute;text-decoration: none;display: none;}
+#InstallmentsLabel{bottom: 27px;color: #29537E;font-size: 12px;font-weight:normal;left: 35px;position: absolute;text-decoration: none;display:none;}
+#ContactInfo{color: #1B4E80;font-size: 14px;font-weight: bold;margin: 15px;text-align: left;}
+#CreditCardResultContainer{display: none;float: left;height: 350px;margin-bottom: 35px;margin-left: 155px;position: relative;width: 814px;}
+#CampaignInfo{color: Gray;font-size: 14px;margin: 15px;text-align: left;}
+#CampaignInfoTitle{color: #1B4E80;font-size: 14px;font-weight: bold;margin: 13px;text-align: left;}
+#Purchase{background: url("../Images/TemplateBtn.png") no-repeat scroll -295px -215px transparent;color: #005999;font-family: Arial,Helvetica,sans-serif;font-size: 19px;height: 29px;padding-bottom: 4px;padding-left: 17px;padding-top: 15px;text-decoration: none;width: 131px;margin-top:20px;margin-left:120px;}
+#Purchase:hover{background: url("../Images/TemplateBtn.png") no-repeat scroll -295px -266px transparent;color: #0089FF;font-family: Arial,Helvetica,sans-serif;font-size: 19px;height: 29px;padding-bottom: 4px;padding-left: 17px;padding-top: 15px;text-decoration: none;width: 131px;margin-top:20px;margin-left:120px;}
+#Purchase2{background: url("../Images/TemplateBtn.png") no-repeat scroll -295px -215px transparent;color: #005999;font-family: Arial,Helvetica,sans-serif;font-size: 19px;height: 29px;padding-bottom: 4px;padding-left: 17px;padding-top: 15px;text-decoration: none;width: 131px;margin-top:10px;margin-left:650px;}
+#Purchase2:hover{background: url("../Images/TemplateBtn.png") no-repeat scroll -295px -266px transparent;color: #0089FF;font-family: Arial,Helvetica,sans-serif;font-size: 19px;height: 29px;padding-bottom: 4px;padding-left: 17px;padding-top: 15px;text-decoration: none;width: 131px;margin-top:10px;margin-left:650px;}
+#VerticalLine{background-color: Gray;height: 211px;left: 20px;position: absolute;width: 1px;}
+#Door{background-color: Black;height: 4px;left: 21px;position: absolute;width: 41px;}
+#DoorTitle{color: gray;font-size: 14px;height: 40px;left: 27px;position: absolute;top: 48px;width: 5px;}
+#VerticalLineRight{background-color: Gray;width: 1px;height: 87px;position: absolute;left: 80px;}
+#VerticalLineRightBottom{background-color: Gray;height: 90px;left: 80px;position: absolute;top: 126px;width: 1px;}
+#HorizontalBottom{background-color: Gray;height: 1px;left: 80px;position: absolute;}
+.topborder{border-top: solid 1px gray;}
+.rightborder{border-right: solid 1px gray;}
+.leftborder{border-left: solid 1px gray;}
+.bottomborder{border-bottom: solid 1px gray;}
+#TicketPanelTitleValue_4{margin-top: 5px;}
+#PaymentLBArea{position: fixed;top: 0;left: 0;background-color: black;width: 100%;height: 100%;z-index: 10;opacity: 0.55;filter: alpha(opacity=55);}
+#PaymentLBLayout{left: 50%;margin-left: -472px;margin-top: -220px;position: fixed;top: 50%;width: 500px;z-index: 11;}
+#PaymentLBPanel{background-color: White;border: 3px ridge #3D6B95;border-radius: 10px 10px 10px 10px;height: 417px;position: relative;width: 942px;z-index: 12;}
+#LBContent{color: Gray;font-family: Arial,Helvetica,sans-serif;font-size: 16px;margin: 20px 17px 0 34px;text-align: left;z-index: 13;}
+#SeatSelectionTitle{color: White;font-family: Arial,Helvetica,sans-serif;font-size: 17px;font-weight: bold;left: 25px;position: absolute;top: 20px;}
+#SeatSelectionTitle2{color: Black;font-family: Arial,Helvetica,sans-serif;font-size: 14px;font-weight:normal;left: 365px;position: absolute;top: 22px;}
+.InformationImg{float: left;margin-left: 7px;}
+.InformationText{font-size: 12px;font-family: Arial,Helvetica,sans-serif;font-weight: bold;float: left;margin-top: 7px;margin-left: 7px;}
+#VerifyPhoneTitle{left: 92px;position: absolute;top: -44px;}
+#NumberControl_Layout #Button{margin-left: 273px;margin-top: 11px;}
+#NumberControlPanel{position: relative;left: -81px;top: -4px;}
+#PhoneNumberCode{font-size: 15px;border: 1px solid #3D6B95;height: 26px;left: 90px;position: absolute;top: -23px;}
+#PhoneNumber{font-size: 14px;left: 155px;position: absolute;top: -23px;}
+#SeatInformationPanel{position: absolute;left: 60px;top: 290px;}
+#SeatInformation_0{color: Gray;}
+#SeatInformation_1{background: url("../Images/Template.png") no-repeat scroll -9px -562px transparent;height: 27px;width: 25px;}
+#SeatInformation_2{color: Black;}
+#SeatInformation_3{background: url("../Images/Template.png") no-repeat scroll -40px -562px transparent;height: 27px;width: 25px;}
+#SeatInformation_4{color: Black;}
+#SeatInformation_5{background: url("../Images/Template.png") no-repeat scroll -71px -562px transparent;height: 27px;width: 25px;}
+#SeatInformation_6{color: Black;}
+#SeatInformation_7{background: url("../Images/Template.png") no-repeat scroll -102px -562px transparent;height: 27px;width: 25px;}
+#SeatInformation_8{color: Black;}
+#SeatInformation_9{background: url("../Images/Template.png") no-repeat scroll -133px -562px transparent;height: 27px;width: 25px;}
+#SeatInformation_10{color: Black;}
+#SeatInformation_11{background: url("../Images/Template.png") no-repeat scroll -164px -563px transparent;height: 28px;width: 34px;}
+#SeatInformation_12{color: Black;}
+#ContactPhone{border: 1px solid #3D6B95;position: absolute;top: 45px;width: 160px;left: 113px;font-size: 12px;height: 23px;}
+#ContactEmail{border: 1px solid #3D6B95;position: absolute;top: 90px;width: 160px;left: 113px;font-size: 12px;height: 23px;}
+#ContactPhoneTxt{position: absolute;font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: #003366;top: 50px;font-weight: bold;left: 20px;}
+#ContactEmailTxt{position: absolute;font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: #003366;top: 95px;font-weight: bold;left: 20px;}
+#ContactPhoneEx{position: absolute;font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: #003366;top: 75px;font-weight: bold;left: 112px;}
+#CampaignPass{border: 1px solid #3D6B95;left: 120px;position: absolute;top: 100px;width: 160px;font-size: 12px;height: 23px;}
+#CampaignPhoneNo{border: 1px solid #3D6B95;left: 140px;position: absolute;top: 68px;width: 160px;font-size: 12px;height: 23px;}
+#CouponPhoneTitle{position: absolute;font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: #003366;top: 73px;font-weight: bold;left: 15px;}
+#CouponPasswordTitle{position: absolute;font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: #003366;top: 105px;font-weight: bold;left: 20px;}
+#TermsOfCampaign{position: absolute;font-size: 16px;font-family: Arial,Helvetica,sans-serif;color: #005999;top: 150px;font-weight: bold;left: 20px;}
+#CampaignTicketCancel{position: absolute;font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: #FF0000;top: 180px;font-weight: bold;left: 20px;}
+#TicketInformation{position: relative;float: left;margin-left: 155px;margin-top: 18px;width: 813px;}
+#TicketPanelTitle{float: left;margin-left: 25px;width:750px;}
+#TicketPanelTitleFrom{float: left;margin-left: 0px;width:200px;}
+#TicketPanelTitleTo{float: left;margin-left: 0px;width:200px;}
+#TicketPanelTitleVoyageTime{float: left;margin-left: 0px;width:150px;}
+#TicketPanelTitleTotalPrice{float: left;margin-left: 0px;width:80px;}
+#TicketPanelTitlePassengerCount{float: left;margin-left: 0px;width:80px;}
+#TicketPanelTitleTP{float: right;margin-right: 10px;width:200px;}
+.TicketPanelValueFrom{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;font-weight: bold;margin-top: 10px;margin-bottom: 25px;float: left;margin-left: 0px;width:200px;}
+.TicketPanelValueTo{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;font-weight: bold;margin-top: 10px;margin-bottom: 25px;float: left;margin-left: 0px;width:200px;}
+.TicketPanelValueVoyageTime{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;font-weight: bold;margin-top: 10px;margin-bottom: 25px;float: left;margin-left: 0px;width:150px;}
+.TicketPanelValueTotalPrice{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;font-weight: bold;margin-top: 10px;text-align:center; margin-bottom: 25px;float: left;margin-left: 0px;width:80px;}
+.TicketPanelValueTotalPassengerCount{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;font-weight: bold;margin-top: 10px;text-align:center;margin-bottom: 25px;float: left;margin-left: 0px;width:80px;}
+.TicketPanelValueTP{font-size: 16px;font-family: Arial,Helvetica,sans-serif;color: Red;font-weight: bold;margin-top: 10px;}
+.TicketPanelTitle{float: left;margin-left: 25px;width:750px;}
+.TicketName{color: #003366;font-family: Arial,Helvetica,sans-serif;font-size: 12px;font-weight: bold;}
+.TicketValue{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;font-weight: bold;margin-top: 10px;margin-bottom: 25px; }
+.TicketValueBlack{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Black;font-weight: bold;margin-top: 12px; }
+#TicketPanelTop{position: absolute;background-color:  #EBEBEB;top: 59px;text-align: left;width:802px; margin-left:8px;padding-top:10px;padding-bottom:20px;}
+#TicketPanelBottom{position: absolute;top: 130px;text-align: left;}
+#ConvertToReservationsGridContainer{margin-left: 105px;}
+#ConvertReservations_Layout{margin-left: -157px;}
+#ReservationComplete{background: url("../Images/TemplateBtn.png") no-repeat scroll -296px -215px transparent;color: #005999;height: 18px;padding: 15px 15px 15px 37px;text-decoration: none;width: 91px;float: right;margin: 25px 30px 25px 438px;display: none;}
+#ReservationComplete:hover{background: url("../Images/TemplateBtn.png") no-repeat scroll -296px -266px transparent;color: #0089FF;height: 18px;padding: 15px 15px 15px 37px;text-decoration: none;width: 91px;}
+/*TAB CONTAİNER START*/
+.TabContainer{position: relative;width: 726px;padding-bottom: 15px;float: left;margin-left: 5px;margin-top: 10px;}
+.TabContainer .TabsScrollableArea{height: 34px;width: 100%;margin: 0px;padding: 0px;display: block;overflow: hidden;}
+.TabContainer .Tabs{width: 10000px;overflow: hidden;}
+.TabContainer .Tabs > div{border-top: 1px solid #ababab;border-left: 1px solid #ababab;border-right: 1px solid #ababab;background-color: #ccc;color: Black;cursor: pointer;float: left;padding: 9px;text-align: center;text-transform: none;width: 120px;-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;-moz-border-radius-topleft: 5px;-moz-border-radius-topright: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.TabContainer .Tabs > div.Selected{float: left;padding: 9px;border-right: 1px solid #fff;text-transform: none;color: #fff;cursor: default;background: #00539A;}
+.TabContainer .Tabs > div.Selected h3{color: #fff;background: #00539A;}
+.TabContainer .Tabs > div h3{margin: 0;padding: 0;font-size: 15px;font-weight: bold;color: #999;}
+.TabContainer .TabItems{position: relative;width: 100%;}
+.TabContainer .TabItems > div{float: left;position: relative;width: 176px;height: 280px;padding-left: 7px;padding-right: 3px;}
+.TabContainer .TabItems > div > .ItemLayout{position: absolute;width: 176px;height: 280px;z-index: 2;overflow: hidden;}
+.TabContainer .TabItems > div > .ItemLayout > img{width: 176px;height: 280px;}
+.TabContainer .TabItems > div > .ItemDescription{position: absolute;background-color: White;width: 166px;height: 30px;z-index: 2;bottom: 0;font-weight: bold;padding-left: 10px;padding-top: 10px;opacity: 0.7;filter: alpha(opacity=70);}
+.TabContainer .TabItems > div > .ItemHover{position: absolute;background-color: #e11f28;width: 176px;height: 280px;z-index: 3;display: none;position: relative;cursor: pointer;}
+.TabContainer .TabItems > div > .ItemHover > h3{height: 30px;width: 145px;float: left;margin: 0;padding-left: 15px;padding-right: 15px;padding-top: 10px;padding-bottom: 10px;color: White;font-size: 15px;}
+.TabContainer .TabItems > div > .ItemHover > h3 > a.tt{position: relative;color: #FFFFFF;font-weight: bold;text-decoration: none;}
+.TabContainer .TabItems > div > .ItemHover > h4{width: 145px;float: left;margin: 0;padding-left: 15px;padding-right: 15px;padding-top: 10px;padding-bottom: 10px;color: White;font-size: 12px;}
+.TabContainer .TabItems > div > .ItemHover > span{width: 145px;float: left;bottom: 100px;left: 15px;position: absolute;color: White;font-size: 12px;}
+.TabContainer .TabItems > div > .ItemHover > h4 > a.tt{cursor: pointer;position: relative;color: #FFFFFF;font-weight: bold;text-decoration: none;}
+.TabContainer .TabItems > div > .ItemHover > #ProductClientGroups{float: left;left: 20px;width: 130px;position: absolute;bottom: 51px;}
+.TabContainer .TabItems > div > .ItemHover > #ProductClientGroups .ClientImages{margin-right: 2px;}
+.TabContainer .TabItems > div > .ItemHover > .LinkDetail{margin: 0;padding: 10px;background-color: Black;color: White;text-decoration: none;margin-right: 10px;position: absolute;right: 0;bottom: 10px;}
+.TabContainer .ItemsContainer{-webkit-border-top-right-radius: 5px;-moz-border-radius-topright: 5px;border-top-right-radius: 5px;position: relative;display: inline-block;padding-top: 20px;padding-left: 20px;padding-bottom: 10px;width: 100%;color: #000;background: #f7f7f7;border: 1px solid #DBDBDB;}
+.TabContainer .Pager{display: inline-block;height: 30px;margin-top: 10px;margin-left: 10px;bottom: 0px;width: 100%;float: left;overflow: hidden;}
+.TabContainer .Pager a.Page{margin-left: 1px;background-color: #bbbbbb;padding: 3px;color: White;font-weight: bold;cursor: pointer;text-decoration: none;width: 25px;text-align: center;float: left;}
+.TabContainer .Pager a.Selected{margin-left: 1px;background-color: #888888;padding: 3px;color: White;font-weight: bold;cursor: default;text-decoration: none;width: 25px;text-align: center;float: left;}
+.TabContainer .Pager a.Page:hover{background-color: #888888;}
+.TabContainer .Pager .PagerSubView{width: 10000px;float: left;}
+.TabContainer #LoadingLabel{display: inline-block;padding-right: 9px;padding-top: 12px;display: none;color: White;float: right;}
+#TabItemSpacer{height: 10px;display: block;width: 100%;}
+/*TAB CONTAİNER END*/
+.textbox{border: 1px solid #3D6B95;font-size: 12px;height: 23px;padding-left: 3px;width: 180px;}
+.textarea{border: 1px solid #3D6B95;font-size: 12px;padding-left: 3px;width: 430px;}
+.memberShipForm{float: left;font-size: 18px;margin-bottom: 20px;text-align: left;width: 420px;}
+.memberShipForm .FormItemDouble{float: left;width: 610px;}
+.memberShipForm .FormItemDouble .FormItem{height: auto;float: left;width: 250px;margin-bottom: 10px;}
+.memberShipForm .FormItemDouble .FormItem.first{width: 350px;margin-right: 5px;}
+.memberShipForm .FormItemDouble .FormItem .Label{width: 50px;height: auto;float: left;}
+.memberShipForm .FormItemDouble .FormItem .Label.first{width: 150px;height: auto;float: left;}
+.memberShipForm .FormItemDouble .FormItem .Value{width: 200px;height: auto;float: left;}
+.memberShipForm .FormItem{height: auto;float: left;width: 420px;margin-bottom: 10px;}
+.memberShipForm .FormItem .Label{width: 150px;height: auto;float: left;line-height: 26px;}
+.memberShipForm .FormItem .Value{width: 255px;height: auto;float: left;line-height: 26px;}
+.styled-select select{background: transparent;border: 0 none;border-radius: 0 0 0 0;font-size: 13px;height: 25px;line-height: 1;padding: 5px;width: 175px;display: block;filter: alpha(opacity=0);opacity: 0;position: absolute;z-index: 9999;}
+.styled-select div{position: absolute;top: 0;left: 0;color: #000;padding: 0 5px;z-index: 0;}
+.Grid table.SCCell{background-color: Transparent;}
+#TicketsGridContainer{margin-left: 38px;}
+.ContactUsForm{border: 1px solid #CCCCCC;border-radius: 10px 10px 10px 10px;float: left;margin-bottom: 30px;padding: 30px 22px 10px;left:20px;text-align: left;width: 415px;background: linear-gradient(#FFFFFF, #CED5DB) repeat scroll 0 0 transparent;}
+.ContactUsForm .FormItem{height: auto;float: left;width: 390px;margin-bottom: 10px;}
+.ContactUsForm .FormItem .Label{text-align: left;width: 130px;height: auto;float: left;color: #003366;font-size: 10pt;font-weight: bold;padding-right: 5px;padding-top: 0;vertical-align: middle;}
+.ContactUsForm .FormItem .Value{width: 215px;height: auto;float: right;}
+.ContactUsForm .FormItem textarea, .ContactUsForm .FormItem input{width: 208px;}
+.ContactUsForm .FormItem .FormButton{float: right;}
+.ContactUsForm .FormItem .styled-select div{top: 6px;font-size: 13px;}
+.FormItem .Value #DepartureDate{border: solid 1px #3D6B95;height: 24px;padding-left: 5px;width: 206px;font-size: 15px;}
+.FormItem .Value #calenderButton{position: absolute;margin-left: -20px;display: none;}
+#KoruncukInformation{position: relative;float: left;margin-left: 155px;margin-top: 10px;width: 813px;}
+#KoruncukPanelTitle{float: left;margin-left: 5px;width:750px;}
+#KoruncukInfoTitle{color: White;font-family: Arial,Helvetica,sans-serif;font-size: 16px;font-weight: bold;color:Purple; margin-left: 56px;margin-top: 20px;position: absolute; *margin-left:-380px;}
+#KoruncukPanelTitleInfo{font-size: 14px;font-family: Arial,Helvetica,sans-serif;color:Purple;}
+#KoruncukCheck{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;margin-top:15px; }
+#KoruncukCheckLabel{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color:Purple;margin-top:-12px; margin-left:18px;width:200px; font-weight:bold;}
+#KoruncukEmailLabel{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;margin-top:-12px;color:Purple; margin-left:250px;width:50px;font-weight:bold; }
+#KoruncukEmail{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray; margin-top:-27px; margin-left:300px;border: 1px solid #3D6B95;font-size: 12px;height: 23px;padding-left: 3px;width: 180px;}
+#KoruncukLink{font-size: 12px;font-family: Arial,Helvetica,sans-serif;color: Gray;margin-top:5px;color:Blue; }
+#KoruncukEmailInfoLabel{font-size: 12px;color:Purple;font-family: Arial,Helvetica,sans-serif;color: Gray;margin-top:2px; margin-left:250px;width:400px;font-weight:bold; }
+#KoruncukPaymentInfoLabel{font-size: 12px;color:Purple;font-family: Arial,Helvetica,sans-serif;color: Gray;margin-top:7px; margin-left:0px;width:600px;font-weight:normal; }
+
+.JobApplicationForm{border: 1px solid #CCCCCC;border-radius: 10px 10px 10px 10px;float: left;margin-bottom: 30px;padding: 30px 22px 10px;left:20px;text-align: left;width: 600px;background: linear-gradient(#FFFFFF, #CED5DB) repeat scroll 0 0 transparent;}
+.JobApplicationForm .FormItem{height: auto;float: left;width: 390px;margin-bottom: 10px;}
+.JobApplicationForm .FormItem .Label{text-align: left;width: 150px;height: auto;float: left;color: #003366;font-size: 10pt;font-weight: bold;padding-right: 5px;padding-top: 0;vertical-align: middle;}
+.JobApplicationForm .FormItem .Value{width: 215px;height: auto;float: right;}
+.JobApplicationForm .FormItem .Value2{width: 65px;height: auto;float: right;}
+.JobApplicationForm .FormItem .Value3{width: 150px;height: auto;float: right;}
+.JobApplicationForm .FormItem textarea, .JobApplicationForm .FormItem input{width: 283px;}
+.JobApplicationForm .FormItem .FormButton{float: right;}
+.JobApplicationForm .FormItem .styled-select div{top: 6px;font-size: 13px;}
+.JobApplicationForm .FormItem .styled-select2 div{top: 6px;font-size: 13px;}
+.JobApplicationForm .FormItemDouble{float: left;width: 610px;}
+.JobApplicationForm .FormItemDouble .FormItem{height: auto;float: left;width: 103px;margin-bottom: 10px;}
+.JobApplicationForm .FormItemDouble .FormItem.first{width: 240px;margin-right: 5px;}
+.JobApplicationForm .FormItem textbox, .JobApplicationForm .FormItem.first input{width: 35px;}
+.JobApplicationForm .FormItemDouble .FormItem.second{width: 325px;margin-right: 5px; float:left;}
+.JobApplicationForm .FormItemDouble .FormItem.third{height: auto;float: left;width: 150px;margin-bottom: 10px;}
+.JobApplicationForm .FormItemDouble .FormItem.fourth{height: auto;float: left;width: 40px;margin-bottom: 10px;}
+.JobApplicationForm .FormItem textbox, .JobApplicationForm .FormItem.fourth input{width: 238px;}
+.JobApplicationForm .FormItemDouble .FormItem .Label{width: 30px;height: auto;float: left;}
+.JobApplicationForm .FormItemDouble .FormItem .Label.first{width: 120px;height: auto;float: left;}
+.JobApplicationForm .FormItemDouble .FormItem .Value{width: 200px;height: auto;float: left;}
+.JobApplicationForm .FormItemDouble .FormItem .calenderButton{width: 200px;height: auto;float: left;}
+.FormItem .Value #DepartureDate{border: solid 1px #3D6B95;height: 24px;padding-left: 5px;width: 206px;font-size: 15px;}
+.FormItem .Value #calenderButton{position: absolute;margin-left: -20px;display: none;}
+#WorkingPeriod{border: solid 1px #3D6B95;height: 24px;padding-left: 5px;width: 125px;font-size: 15px;}
+#WorkingPeriod2{border: solid 1px #3D6B95;height: 24px;padding-left: 5px;width: 125px;font-size: 15px;}
+.FormItem .Value3 #calenderButton{position: absolute;display:inline-block; margin-left: -20px;}
+.styled-select2 select{background: transparent;border: 0 none;border-radius: 0 0 0 0;font-size: 13px;height: 25px;line-height: 1;padding: 5px;width: 75px;display: block;filter: alpha(opacity=0);opacity: 0;position: absolute;z-index: 9999;}
+.styled-select2 div{position: absolute;top: 0;left: 0;color: #000;padding: 0 5px;z-index: 0;}
+.textboxbig{border: 1px solid #3D6B95;font-size: 12px;height: 23px;padding-left: 3px;width: 283px;}
+.textareabig{border: 1px solid #3D6B95;font-size: 12px;padding-left: 3px;width: 283px; height:70px;}
+.textboxlittle{border: 1px solid #3D6B95;font-size: 12px;height: 23px;padding-left: 3px;width: 75px;}

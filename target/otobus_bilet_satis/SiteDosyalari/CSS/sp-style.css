@@ -1,0 +1,115 @@
+.pof-container{width:491px;height:351px;border:3px solid #79A3D2;background:#FFF;padding:10px 20px 30px}
+.pof-banner{border:1px solid #F5F5F5;height:100px;margin-bottom:10px;width:470px;padding:10px}
+.promotedContent{display:none;width:468px;height:98px;border:dashed 1px #366092;margin:0 auto 10px;padding:11px}
+.pof-inner{border:1px solid #F5F5F5;width:470px;height:210px;margin-bottom:1px;padding:10px 10px 0}
+.pof-like{clear:both;height:20px;width:444px;border:1px dashed #FFF;margin-bottom:10px;padding:8px 11px 11px}
+.pof-thanks,.pof-warning{display:none;position:absolute;background:#FFF;text-align:center;font-size:13px;font-weight:700;color:#333;line-height:29px;z-index:3;width:450px}
+.pof-warning{background:transparent;margin-left:40px;color:red}
+#sp-fb-loading{display:none;position:fixed;top:161px;left:270px;cursor:pointer;z-index:9999}
+.pof-content{height:150px}
+.pof-container .text{margin-left:15px;width:270px;float:left}
+.pof-container .title{font-size:14px;font-weight:700;color:#333}
+.pof-container .exp{font-size:13px;padding-top:10px;overflow:hidden;color:#333}
+#spFrame{border:none;height:396px;overflow:hidden;width:536px;background:none;margin-bottom:-3px}
+.pof-content .product-image{float:left}
+.frameBody{font-family:Calibri;overflow:hidden;margin:0;padding:0}
+#spEvent{left:-536px;width:591px;position:fixed;top:8%!important;z-index:999999;overflow:visible;height:396px}
+#spContent{clear:both;float:left;overflow:hidden;background:#FFF}
+.promoCode{width:100%;height:55px;display:inline-block}
+.promoTitle{text-align:center;color:#333;font-size:12px;font-weight:700;line-height:15px;margin:-2px auto}
+.promoCodLine{text-align:center;width:360px;color:#404040;font-size:24px;border:dashed 2px #FEBF02;background-color:#FDEDB4;height:40px;line-height:40px;cursor:pointer;margin:6px auto}
+#scissor{background:url(images/makas.png) no-repeat;width:42px;height:36px;display:block;position:absolute;top:26px;left:76px}
+#scissor2{background:url(images/makas.png) no-repeat;width:33px;height:27px;display:block;position:absolute;top:29px;left:25px;background-size:93%}
+.promoShare a{color:#333;font-size:12px;font-weight:700}
+#use-cond{position:absolute;top:115px}
+#use-later{position:absolute;top:115px;right:35px}
+.spUseNowButton{-moz-box-shadow:inset -1px 26px 24px 0 #f29c93;-webkit-box-shadow:inset -1px 26px 24px 0 #f29c93;box-shadow:inset -1px 26px 24px 0 #cd3c38;background-color:#a02f2c!important;-moz-border-radius:13px;-webkit-border-radius:13px;border-radius:7px;color:#fff!important;font-family:Calibri;font-size:17px!important;text-decoration:none;text-shadow:1px 0 33px #c94238;position:absolute;display:block;left:190px;top:90px;padding:8px 23px}
+.mailgonder{-moz-box-shadow:inset 0 4px 19px -3px #bbdaf7;-webkit-box-shadow:inset 0 4px 19px -3px #bbdaf7;box-shadow:inset -1px 26px 24px 0 #35b2d5;background-color:#378de5;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;display:inline-block;color:#fff;font-family:arial;font-size:15px;font-weight:700;text-decoration:none;text-align:center;text-shadow:1px 1px 7px #528ecc;line-height:33px!important;margin-left:-90px;padding:0 25px}
+.mailgonder:hover{background:0;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5',endColorstr='#79bbff');background-color:#378de5}
+#use-now2{-moz-box-shadow:inset -1px 26px 24px 0 #f29c93;-webkit-box-shadow:inset -1px 26px 24px 0 #f29c93;box-shadow:inset -1px 26px 24px 0 #cd3c38;background-color:#a02f2c!important;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;color:#fff;font-family:arial;font-size:15px;font-weight:700;text-decoration:none;text-align:center;text-shadow:1px 1px 7px #c94238;line-height:33px!important;padding:8px 30px}
+.askSmall{position:fixed;right:30px;top:100px;overflow:visible!important;z-index:999999;line-height:1!important}
+.askSmall img{display:inline}
+#spHeader p{color:#333;display:block;font-family:Calibri!important;font-size:20px!important;transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-o-transform:rotate(-90deg);-ms-transform:rotate(-90deg);white-space:nowrap;margin-left:0!important;text-align:center;height:77%;margin-top:2px;width:185px;text-shadow:none;letter-spacing:-.5px;line-height:22px!important}
+#spHeader{background-color:#fff;cursor:pointer;float:left;height:230px;width:35px;#margin-top:30px;#background:url(images/trigger-blue.png);border-radius:0 8px 8px 0;box-shadow:1px 1px 6px rgba(34,25,25,0.4);-moz-box-shadow:0 1px 2px rgba(34,25,25,0.4);-webkit-box-shadow:1px 1px 6px rgba(34,25,25,0.4);overflow:hidden;clear:none!important}
+.spHeaderNav{color:#FFF;font-size:30px;text-align:center;width:98%;line-height:1.2em!important;font-weight:700}
+#spMessage{color:#FFF;font-weight:700;margin-top:20px;float:left}
+.resolutionfixPOFLike{top:-27px!important;position:relative!important;border:none!important}
+.sblue{color:#0bc7f4}
+.sgray{color:#4a4a4a}
+.pof-banner img{width:468px;height:100px}
+.pof-content .product-image img{height:150px;width:180px}
+.promoCodDesc p{font-size:14px;color:#3B5998;margin-top:10px}
+.sp-fancybox-tmp iframe,.sp-fancybox-tmp object{vertical-align:top;margin:0;padding:0}
+.sp-fancybox-wrap{position:absolute;top:0;left:0;z-index:8020}
+.sp-fancybox-wrap-top{top:60px!important}
+.sp-fancybox-skin{box-shadow:0 0 10px 1px #555;position:relative;background:#FFF;color:#444;text-shadow:none;overflow:visible!important;margin:0;padding:0}
+.sp-fancybox-opened{z-index:999999999;overflow:visible!important}
+.sp-fancybox-outer,.sp-fancybox-inner{position:relative;outline:none;margin:0;padding:0}
+.sp-fancybox-inner{overflow:hidden}
+.fancybox-type-iframe .sp-fancybox-inner{-webkit-overflow-scrolling:touch}
+.sp-fancybox-error{color:#444;font:14px/20px Calibri,Arial,sans-serif;margin:0;padding:10px}
+.sp-fancybox-image,.sp-fancybox-iframe{display:block;width:100%;height:100%;border:0;vertical-align:top;margin:0;padding:0}
+.sp-fancybox-image{max-width:100%;max-height:100%}
+.sp-fancybox-close,.sp-fancybox-prev span,.sp-fancybox-next span{background-image:url(images/fancy/fancybox_sprite-org.png)}
+#sp-fancybox-loading{position:fixed;top:50%;left:50%;opacity:1;cursor:pointer;z-index:9999;border-radius:10px}
+#sp-fancybox-loading div{width:62px;height:49px;background:url(images/fancy/share-loading.gif) center center no-repeat;position:relative;background-position:-170px 4px;border-radius:10px;-webkit-box-shadow:0 0 11px #746767;-moz-box-shadow:0 0 11px #746767;box-shadow:0 0 11px #746767;background-color:#fff}
+.sp-fancybox-close{position:absolute;top:-18px;right:-18px;width:36px;height:36px;cursor:pointer;z-index:8040}
+.sp-fancybox-nav{position:absolute;top:0;width:40%;height:100%;cursor:pointer;background:transparent url(images/fancy/blank.gif);-webkit-tap-highlight-color:rgba(0,0,0,0);z-index:8040}
+.sp-fancybox-prev{left:0}
+.sp-fancybox-next{right:0}
+.sp-fancybox-nav span{position:absolute;top:50%;width:36px;height:34px;margin-top:-18px;cursor:pointer;z-index:8040;visibility:hidden}
+.sp-fancybox-prev span{left:20px;background-position:0 -36px}
+.sp-fancybox-next span{right:20px;background-position:0 -72px}
+.sp-fancybox-tmp{position:absolute;top:-9999px;left:-9999px;overflow:visible;visibility:hidden;padding:0}
+#sp-fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index:99999999;background:#000;cursor:default!important}
+#sp-fancybox-overlay.overlay-fixed{position:fixed;bottom:0;right:0}
+.sp-fancybox-title{visibility:hidden;font:normal 13px/20px calibri,Arial,sans-serif;position:relative;text-shadow:none;z-index:8050}
+.sp-fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom:-35px;z-index:8030;text-align:center}
+.sp-fancybox-title-float-wrap .child{display:inline-block;margin-right:-100%;background:rgba(0,0,0,0.8);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:700;line-height:24px;white-space:nowrap;padding:2px 20px}
+.sp-fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}
+.sp-fancybox-title-inside-wrap{margin-top:10px}
+.sp-fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;background:rgba(0,0,0,.8);padding:10px}
+#sp-notes{position:fixed;bottom:-161px;right:15px;width:268px;height:188px;background:#f2f2f2;border:2px solid #d9d9d9;border-bottom:none;z-index:999999;overflow:hidden;font-family:Calibri!important;font-size:12px!important;line-height:1!important;font:normal!important}
+#coupAssitCopyMsg{font-weight:700}
+#sp-notes .sp-title{color:#333;font-size:14px;font-weight:700;height:17px;cursor:pointer;text-align:left;padding:6px}
+#sp-notes .sp-couponHolder{background:#FFF;overflow:hidden;height:60px}
+#sp-notes .sp-notePrev{position:absolute;left:10px;top:50px;display:none;background:url(images/sp-prev.gif) no-repeat;width:10px;height:13px}
+#sp-notes .sp-noteNext{position:absolute;right:10px;top:50px;display:none;background:url(images/sp-next.gif) no-repeat;width:10px;height:13px}
+#sp-notes .sp-noteMin{position:absolute;right:6px;top:11px;width:13px;height:13px;background:url(images/sp-min.gif) no-repeat}
+#sp-notes .sp-noteClose{position:absolute;right:26px;top:7px;width:13px;height:13px;background:url(images/sp-close.gif) no-repeat}
+#sp-notes .sp-copy{width:40px;font-size:11px;font-weight:700;text-decoration:underline;display:block;color:#333;visibility:hidden;margin:0 auto}
+#sp-notes .sp-coupon{color:#333;font-size:14px;font-weight:700;text-align:center;border:dashed 2px #FEBF02;border-radius:5px;max-width:200px;overflow:hidden;background:#FDEDB4;margin:11px auto 2px;padding:5px}
+#sp-notes .sp-note{color:#000;font-size:12px;text-align:center;height:59px;overflow:hidden;padding:5px}
+#sp-notes .sp-notes-pop-close{float:right;background:url(images/closeBtn.gif) no-repeat;width:11px;height:11px;display:block}
+#sp-notes .sp-notes-pop{display:none;position:absolute;z-index:100;background:#f2f2f2;top:92px;border:1px solid #d9d9d9;color:#000;text-align:center;margin:5px;padding:5px}
+#sp-notes .product-footer{background:#FFF;overflow:hidden;padding:5px 5px 2px 2px}
+#sp-notes .marka-logo img{height:22px;float:left}
+#sp-notes .socia-logo img{height:10px;float:right;padding-top:5px}
+#sp-notes div,#sp-notes li{float:none;position:static}
+.sp-line{display:none}
+.emailtitle{font-weight:700;font-size:14px;margin:0;padding:0}
+.emailbody{line-height:16px!important;font-size:15px!important;margin:12px 0;padding:0}
+.email-divider{border:1px solid;border-color:gray;margin:5px 0!important}
+.placeholder{color:#777}
+.sp-ask-fancybox-close{background:url(/images/fancy-close.png) no-repeat center;top:7px;right:8px;width:18px;height:18px;position:absolute}
+.spAskButton{position:absolute;width:145px;height:45px;display:inline-block;border:0;z-index:99999999;margin:0;padding:0}
+.spAskButtonImg{max-height:50px;max-width:200px}
+.sp-ask-fancybox-close2{background:url(/images/fancy-close2.png) no-repeat center;top:7px;right:8px;width:18px;height:18px;position:absolute}
+.alreadyLiked{position:absolute;bottom:25px;right:8px;font-size:11px;text-decoration:underline;cursor:pointer}
+.sconContainer{width:468px;height:208px;border:1px solid #79A3D2;background:#FFF;padding:10px 12px}
+.sconBanner{height:100px;margin-bottom:10px;width:470px}
+.sconInner{width:448px;height:67px;margin-bottom:1px;padding:4px 10px 0 13px}
+.sconContent{margin-left:5px}
+.gplusOption{cursor:pointer;height: 41px;display:inline-block;width:236px}
+#fbText,#gplusText,#vkText{position:relative;color:#FFF;top:-37px;font-weight:600;margin-left:36px;font-size:13px;display:inline-block;width:132px;height:14px}
+img,.resolutionfixPOFInner{border:none}
+.spUseNowButton:hover,.spUseNowButton:active,#use-now2:hover,#use-now2:active{background-color:#fd130d!important}
+#spHeader div,#spHeader li{float:none}
+.sp-fancybox-nav:hover span,.sp-fancybox-opened .fancybox-title{visibility:visible}
+.facebookOption,.facebookOptionSelfLink{width:200px;height: 41px;display:inline-block;cursor:pointer}
+.vkontakteOption{width:200px;height: 41px;display:inline-block;cursor:pointer}
+.vkOption{width:200px;height: 41px;display:inline-block;cursor:pointer}
+@font-face {
+    font-family: 'oyuncakdunyasi'; /*a name to be used later*/
+    src: url('fonts/ProximaNova-Sbold.otf'); /*URL to font*/
+}
