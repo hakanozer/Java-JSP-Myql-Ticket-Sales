@@ -8,6 +8,12 @@ Intellij Ultimate | Java 8
 Mysql | JSP
 CSS3 | Jquery 
 
+Login information | UserName / Password | URL |
+------------- | ------------- | -------------
+Admin  | admin / admin | /admin |
+Company  | serik / 12345 | /terminal |
+Employee  | hakan / hakan | /yonetici |
+
 
 # Project Display Image
 <p>
