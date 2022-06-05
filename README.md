@@ -1,5 +1,5 @@
 # Java JSP Mysql Ticket Sales
-Bu proje Java, JSP yazılımlarını ve Mysql database'ni kullanarak bir bilet firmasının bütün ihtiyaçlarını karşılayan bir web uygulaması sunar.
+This project offers a web application that meets all the needs of a ticket company using Java, JSP software and Mysql database.
                     
                     
 IDE and Tools | |
